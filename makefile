@@ -1,6 +1,11 @@
 IDIR =./include
 CC=gcc
-CFLAGS=-I$(IDIR)
+
+ifdef debug
+	CFLAGS=-I$(IDIR) -g
+else
+	CFLAGS=-I$(IDIR)
+endif
 
 ODIR=obj
 LDIR =./lib
