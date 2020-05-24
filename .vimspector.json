@@ -6,7 +6,7 @@
         "name": "gdb: Launch",
         "type": "cppdbg",
         "request": "launch",
-        "program": "${fileDirname}/${fileBasenameNoExtension}.out",
+        "program": "${fileDirname}/hellomake.out",
         "cwd": "${workspaceRoot}",
         "console": "integratedTerminal",
         "MIMode": "gdb"
