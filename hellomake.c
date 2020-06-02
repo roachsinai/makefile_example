@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "include/hellomake.h"
+#include "include/hellofunc.h"
 
 
 int main() {

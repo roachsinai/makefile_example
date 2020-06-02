@@ -12,7 +12,7 @@ LDIR =./lib
 
 LIBS=-lm
 
-_DEPS = hellomake.h
+_DEPS = hellofunc.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
 _OBJ = hellomake.o hellofunc.o
