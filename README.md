@@ -2,7 +2,7 @@ A simple example shows use compilation database help YCM do Semantic Completion 
 
 ## Usage
 
-Just run `compiledb -n make` to create a compile_commands.json which will used by YCM automatically.
+Just run `compiledb -nf make` to create a compile_commands.json which will used by YCM automatically.
 
 More details: [Option 1: Use a compilation database](https://github.com/ycm-core/YouCompleteMe#option-1-use-a-compilation-database)
 
