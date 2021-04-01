@@ -11,6 +11,7 @@ More details: [Option 1: Use a compilation database](https://github.com/ycm-core
 ```
 make
 make run
+make debug=1
 make clean
 ```
 
